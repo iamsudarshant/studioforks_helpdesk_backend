@@ -1,0 +1,15 @@
+ALTER TABLE departments DROP FOREIGN KEY fk_departments_head;
+DROP TABLE IF EXISTS user_preferences;
+DROP TABLE IF EXISTS api_keys;
+DROP TABLE IF EXISTS otp_codes;
+DROP TABLE IF EXISTS password_reset_tokens;
+DROP TABLE IF EXISTS sessions;
+DROP TABLE IF EXISTS user_group_transfers;
+DROP TABLE IF EXISTS user_scopes;
+DROP TABLE IF EXISTS user_roles;
+DROP TABLE IF EXISTS role_permissions;
+DROP TABLE IF EXISTS permissions;
+DROP TABLE IF EXISTS roles;
+DROP TABLE IF EXISTS password_history;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS user_groups;

@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS idempotency_keys;
+DROP TABLE IF EXISTS metrics_daily;
+DROP TABLE IF EXISTS bulk_import_errors;
+DROP TABLE IF EXISTS bulk_import_jobs;
+DROP TABLE IF EXISTS user_activity;
+DROP TABLE IF EXISTS login_activity;
+DROP TABLE IF EXISTS audit_logs;
+DROP TABLE IF EXISTS report_schedules;
+DROP TABLE IF EXISTS report_jobs;
+DROP TABLE IF EXISTS report_definitions;
+DROP TABLE IF EXISTS outbox_events;
+DROP TABLE IF EXISTS notifications;
+DROP TABLE IF EXISTS notification_preferences;
+DROP TABLE IF EXISTS tenant_notification_settings;
+DROP TABLE IF EXISTS notification_templates;
+DROP TABLE IF EXISTS notification_events;

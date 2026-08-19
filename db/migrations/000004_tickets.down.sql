@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS saved_views;
+DROP TABLE IF EXISTS ticket_feedback;
+DROP TABLE IF EXISTS ticket_sla_events;
+DROP TABLE IF EXISTS ticket_watchers;
+DROP TABLE IF EXISTS ticket_timeline;
+DROP TABLE IF EXISTS ticket_assignments;
+DROP TABLE IF EXISTS ticket_status_history;
+DROP TABLE IF EXISTS ticket_conversation_reads;
+DROP TABLE IF EXISTS ticket_conversations;
+DROP TABLE IF EXISTS tickets;
+DROP TABLE IF EXISTS ticket_sequences;

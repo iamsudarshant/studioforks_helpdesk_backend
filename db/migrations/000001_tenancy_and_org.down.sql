@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS departments;
+DROP TABLE IF EXISTS sites;
+DROP TABLE IF EXISTS entities;
+DROP TABLE IF EXISTS maintenance_windows;
+DROP TABLE IF EXISTS tenant_onboarding;
+DROP TABLE IF EXISTS tenant_settings_history;
+DROP TABLE IF EXISTS tenant_settings;
+DROP TABLE IF EXISTS tenant_features;
+DROP TABLE IF EXISTS tenant_branding;
+DROP TABLE IF EXISTS tenant_domains;
+DROP TABLE IF EXISTS tenants;
